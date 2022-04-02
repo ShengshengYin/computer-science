@@ -8,7 +8,7 @@ public class QuickSort {
      *
      * @param q1  A Queue of items
      * @param q2  A Queue of items
-     * @return    A Queue containing the items of 
+     * @return    A Queue containing the items of
      *            q1 followed by the items of q2.
      */
     private static <Item extends Comparable> Queue<Item> catenate(Queue<Item> q1, Queue<Item> q2) {
@@ -58,6 +58,8 @@ public class QuickSort {
             Queue<Item> unsorted, Item pivot,
             Queue<Item> less, Queue<Item> equal, Queue<Item> greater) {
         // Your code here!
+            Comparable q1Min = q1.peek();
+            Comparable q2Min = q2.peek();
     }
 
     /**
@@ -69,6 +71,8 @@ public class QuickSort {
     public static <Item extends Comparable> Queue<Item> quickSort(
             Queue<Item> items) {
         // Your code here!
+            Comparable q1Min = q1.peek();
+            Comparable q2Min = q2.peek();
         return items;
     }
 }

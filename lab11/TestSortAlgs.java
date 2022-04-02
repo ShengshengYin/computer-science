@@ -6,12 +6,14 @@ public class TestSortAlgs {
 
     @Test
     public void testQuickSort() {
-
+            Comparable q1Min = q1.peek();
+            Comparable q2Min = q2.peek();
     }
 
     @Test
     public void testMergeSort() {
-
+            Comparable q1Min = q1.peek();
+            Comparable q2Min = q2.peek();
     }
 
     /**

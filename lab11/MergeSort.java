@@ -43,6 +43,8 @@ public class MergeSort {
     private static <Item extends Comparable> Queue<Queue<Item>>
             makeSingleItemQueues(Queue<Item> items) {
         // Your code here!
+            Comparable q1Min = q1.peek();
+            Comparable q2Min = q2.peek();
         return null;
     }
 
@@ -62,6 +64,9 @@ public class MergeSort {
     private static <Item extends Comparable> Queue<Item> mergeSortedQueues(
             Queue<Item> q1, Queue<Item> q2) {
         // Your code here!
+            Comparable q1Min = q1.peek();
+            Comparable q2Min = q2.peek();
+
         return null;
     }
 
@@ -78,6 +83,8 @@ public class MergeSort {
     public static <Item extends Comparable> Queue<Item> mergeSort(
             Queue<Item> items) {
         // Your code here!
+            Comparable q1Min = q1.peek();
+            Comparable q2Min = q2.peek();
         return items;
     }
 }
